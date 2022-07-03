@@ -1,0 +1,39 @@
+#safra .safra .row {
+    background-color: var(--thirty-nardini);
+    border-radius: 10px;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+#safra .safra h2 {
+    color: var(--primary-nardini);
+    font-weight: 500 !important;
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+}
+
+#safra .safra .cidade h2 {
+    color: var(--primary-nardini);
+    font-weight: 900 !important;
+    font-family: var(--font-secondary);
+    font-size: 2rem;
+}
+
+#safra .safra h3 {
+    color: var(--primary);
+    font-weight: 900 !important;
+    font-family: var(--font-secondary);
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1199px) {
+    #safra .row div {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #safra .row div {
+        margin-bottom: 1rem;
+    }
+}
+
