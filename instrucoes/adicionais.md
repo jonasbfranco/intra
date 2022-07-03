@@ -1,0 +1,12 @@
+- infinit scroll (aniversariantes, fique sabendo geral)
+- links ativos (active links)
+- tempo de leitura (fique sabendo)
+- responsividade
+- voltal ao top (aniversariantes, fique sabendo geral)
+- pesquisa contato (keyup pagina de contatos)
+- agenda de sala de reuniao
+- pagina de administracao
+  - excluir banner antigos
+  - incluir, alterar, deletar (fique sabendo, banner, links sistemas)
+  - incluir link sistemas (arrasta e solta para organizar)
+  - 

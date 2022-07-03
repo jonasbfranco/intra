@@ -1,0 +1,24 @@
+
+git config --global --edit
+
+
+
+
+git init
+
+git remote add origin https://github.com/jonasbfranco/intra.git
+
+git pull origin main 
+
+git status
+
+git add -A
+
+git status
+
+git commit -m "primeiro commit"
+
+git status
+
+git push origim main
+

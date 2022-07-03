@@ -1,0 +1,111 @@
+.sr-only, .sr-only-focusable:not(:focus) {
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;
+}
+
+.pr-md-3 {
+    margin-right: 10px !important;
+}
+
+
+#contatos .pesquisa-contatos {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 3px 3px 15px 0.3px rgba(55, 55, 63, 0.3);
+}
+  
+#contatos .pesquisa-contatos form {
+    width: 60%;
+    display: flex;
+}
+  
+#contatos .pesquisa-contatos .form-control,
+#contatos .pesquisa-contatos .form-control::placeholder {
+    background: none;
+    color: #fff;
+}
+
+
+
+#contatos .contato {
+    background-color: var(--light);
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    box-shadow: 3px 3px 15px 0.3px rgba(55, 55, 63, 0.3);
+    transition: 0.3s;
+  }
+  
+#contatos .contato:hover {
+    transform: scale(1.03);
+    box-shadow: 3px 3px 15px 0.3px rgba(55, 55, 63, 0.3);
+}
+
+#contatos .contato .contato-texto p {
+   margin-top: 1rem;
+}
+  
+#contatos .contato img {
+    width: 200px;
+    border-radius: 50%;
+    border: solid 1px var(--dark);
+}
+  
+#contatos .contato .quote {
+    max-width: 35px;
+}
+  
+#contatos .contato .nome, 
+#contatos .contato .setor, 
+#contatos .contato .email,
+#contatos .contato .ramal {
+    color: #aaaaaa;
+    font-size: 1.1rem;
+}
+  
+#contatos .contato .nome span,
+#contatos .contato .setor span,
+#contatos .contato .email span,
+#contatos .contato .ramal span {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+  
+
+  
+@media (max-width: 991.98px) {
+#contato .email img {
+    width: 90px;
+    top: -40px;
+}
+}
+  
+@media (max-width: 767.98px) {
+#contato ul {
+    padding-top: 30px;
+    justify-content: center;
+}
+}
+  
+@media (max-width: 575.98px) {
+    #contatos .pesquisa-contatos form {
+    width: 100%;
+    display: block;
+}
+}
